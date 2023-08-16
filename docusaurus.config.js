@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const algoliaAppId = process.env.ALGOLIA_APP_ID;
 const algoliaApiKey = process.env.ALGOLIA_API_KEY;
-const algoliaIndexName = process.env.ALGOLIA_INDEX_NAME;
+const algoliaIndexName = awd-my-docs;
 
 const getDocId = (doc) => {
   return doc
